@@ -8,7 +8,7 @@ import styled from 'styled-components'
 
 export default function ApiDocs() {
     return (
-        <GeneralLayout title={`API Docs - DefiLlama`}>
+        <GeneralLayout title={`API Docs - DefiAtomo`}>
             <DarkModeWrapper />
         </GeneralLayout>
     )

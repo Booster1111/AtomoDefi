@@ -24,7 +24,7 @@ import SEO from '../SEO'
 import { OptionButton } from 'components/ButtonStyled'
 import { useRouter } from 'next/router'
 import LocalLoader from 'components/LocalLoader'
-import llamaLogo from '../../assets/peeking-llama.png'
+import AtomoLogo from '../../assets/peeking-Atomo.png'
 import Image from 'next/image'
 import Table, { columnsToShow } from 'components/Table'
 
@@ -230,7 +230,7 @@ function GlobalPage({ selectedChain = 'All', chainsSet, filteredProtocols, chart
               {tvl}
             </TYPE.main>
             <DownloadButton
-              href={`https://api.llama.fi/simpleChainDataset/${selectedChain}?${Object.entries(extraTvlsEnabled)
+              href={`https://api.Atomo.fi/simpleChainDataset/${selectedChain}?${Object.entries(extraTvlsEnabled)
                 .filter((t) => t[1] === true)
                 .map((t) => `${t[0]}=true`)
                 .join('&')}`}
@@ -270,7 +270,7 @@ function GlobalPage({ selectedChain = 'All', chainsSet, filteredProtocols, chart
   return (
     <PageWrapper>
       <SEO cardName={selectedChain} chain={selectedChain} tvl={tvl} volumeChange={volumeChange} />
-      <ThemedBackground backgroundColor={transparentize(0.8, '#445ed0')} />
+      <ThemedBackground backgroundColor={transparentize(0.8, '#34a6b6')} />
       <ContentWrapper>
         <AutoColumn gap="24px">
           <Search />
@@ -313,7 +313,7 @@ function GlobalPage({ selectedChain = 'All', chainsSet, filteredProtocols, chart
                 marginBottom: '-34px',
               }}
             >
-              <Image src={llamaLogo} width={41} height={34} onClick={activateEasterEgg} alt="" />
+              <Image src={AtomoLogo} width={41} height={34} onClick={activateEasterEgg} alt="" />
             </div>
           )}
         </div>

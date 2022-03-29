@@ -142,7 +142,7 @@ const PageView = ({ chartData, tokenLinks, token, filteredProtocols, parentToken
 
 export default function Forks(props) {
   return (
-    <GeneralLayout title={`Forks - DefiLlama`} defaultSEO>
+    <GeneralLayout title={`Forks - DefiAtomo`} defaultSEO>
       <PageView {...props} />
     </GeneralLayout>
   )

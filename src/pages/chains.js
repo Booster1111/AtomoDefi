@@ -13,7 +13,7 @@ export async function getStaticProps() {
 
 export default function Chains(props) {
   return (
-    <GeneralLayout title={`All Chains TVL - DefiLlama`} defaultSEO>
+    <GeneralLayout title={`All Chains TVL - AtomoDefi`} defaultSEO>
       <ChainsContainer {...props} />
     </GeneralLayout>
   )

@@ -17,7 +17,7 @@ export async function getStaticProps({ params }) {
 
 export default function NFTHomePage(props) {
   return (
-    <GeneralLayout title="DefiLlama - NFT Dashboard">
+    <GeneralLayout title="AtomoDefi - NFT Dashboard">
       <NFTDashboardPage {...props} />
     </GeneralLayout>
   )

@@ -37,19 +37,19 @@ const SEO = ({ cardName, chain, token, tvl, volumeChange, logo, nftPage = false 
 
     cardSrc.searchParams.append('footerURL', encodeURIComponent(windowURL))
 
-    // First url in images should always be the logo of defillama
+    // First url in images should always be the logo of AtomoDefi
     let images = nftPage
-      ? [`https://defillama.com/defillama-press-kit/nft/SVG/defillama-nft.svg`]
-      : [`https://defillama.com/defillama-press-kit/defi/SVG/defillama.svg`]
+      ? [`assets/nft_logo_white.png`]
+      : [`assets/nft_logo_white.png`]
 
     // chain and token props are used to get logo, if the logo url isn't available in the data of that page
     if (logo) {
       images = [...images, logo]
     } else if (chain && chain !== 'All') {
-      images = [...images, `https://defillama.com${chainIconUrl(chain)}`]
+      images = [...images, `assets/nft_logo_white.png`]
     } else {
       if (token && token !== 'All') {
-        images = [...images, `https://defillama.com${tokenIconUrl(token)}`]
+        images = [...images, `assets/nft_logo_white.png`]
       }
     }
 
@@ -64,28 +64,28 @@ const SEO = ({ cardName, chain, token, tvl, volumeChange, logo, nftPage = false 
     <Head>
       <meta
         name="description"
-        content="DefiLlama is a DeFi TVL aggregator. It is committed to providing accurate data without ads or sponsored content, as well as transparency."
+        content="AtomoDefi is a DeFi TVL aggregator. It is committed to providing accurate data without ads or sponsored content, as well as transparency."
       />
 
-      <meta property="og:title" content="DefiLlama" />
+      <meta property="og:title" content="AtomoDefi" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={windowURL} />
-      <meta property="og:site_name" content="DefiLlama" />
+      <meta property="og:site_name" content="AtomoDefi" />
       <meta
         property="og:description"
-        content="DefiLlama is a DeFi TVL aggregator. It is committed to providing accurate data without ads or sponsored content, as well as transparency."
+        content="AtomoDefi is a DeFi TVL aggregator. It is committed to providing accurate data without ads or sponsored content, as well as transparency."
       />
       <meta property="og:image" content={cardURL} />
 
       <meta name="twitter:card" content="summary_large_image" />
-      <meta property="twitter:domain" content="defillama.com" />
+      <meta property="twitter:domain" content="AtomoDefi.com" />
       <meta property="twitter:url" content={windowURL} />
-      <meta name="twitter:title" content="DefiLlama" />
-      <meta name="twitter:site" content="@DefiLlama" />
-      <meta name="twitter:creator" content="@DefiLlama" />
+      <meta name="twitter:title" content="AtomoDefi" />
+      <meta name="twitter:site" content="@AtomoDefi" />
+      <meta name="twitter:creator" content="@AtomoDefi" />
       <meta
         name="twitter:description"
-        content="DefiLlama is a DeFi TVL aggregator. It is committed to providing accurate data without ads or sponsored content, as well as transparency."
+        content="AtomoDefi is a DeFi TVL aggregator. It is committed to providing accurate data without ads or sponsored content, as well as transparency."
       />
       <meta name="twitter:image" content={cardURL} />
     </Head>

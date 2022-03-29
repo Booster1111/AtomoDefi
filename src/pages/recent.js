@@ -32,7 +32,7 @@ export default function Protocols({ protocols }) {
   const protocolsData = useCalcStakePool2Tvl(data, 'listedAt', 'asc')
 
   return (
-    <GeneralLayout title={`TVL Rankings - DefiLlama`} defaultSEO>
+    <GeneralLayout title={`TVL Rankings - DefiAtomo`} defaultSEO>
       <PageWrapper>
         <FullWrapper>
           <PageHeader title="Recently Listed Protocols" />

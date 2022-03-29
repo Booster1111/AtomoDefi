@@ -20,7 +20,7 @@ module.exports = {
     ]
   },
   images: {
-    domains: ['icons.llama.fi'],
+    domains: ['icons.Atomo.fi'],
   },
   compiler: {
     styledComponents: true,

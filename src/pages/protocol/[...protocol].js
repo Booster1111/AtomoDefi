@@ -41,7 +41,7 @@ export async function getStaticPaths() {
 
 export default function Protocols({ denomination, selectedChain, protocol, protocolData }) {
   return (
-    <GeneralLayout title={`${protocolData.name}: TVL and stats - DefiLlama`}>
+    <GeneralLayout title={`${protocolData.name}: TVL and stats - DefiAtomo`}>
       <ProtocolContainer
         protocol={protocol}
         protocolData={protocolData}

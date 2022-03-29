@@ -1,13 +1,13 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "DefiLlama API",
-        "description": "Docs for defillama's open API.\nAPI is completely free to use.\n",
+        "title": "AtomoDefi API",
+        "description": "Docs for AtomoDefi's open API.\nAPI is completely free to use.\n",
         "version": "1.0.0-oas3"
     },
     "servers": [
         {
-            "url": "https://api.llama.fi"
+            "url": "https://api.Atomo.fi"
         }
     ],
     "tags": [
@@ -17,7 +17,7 @@
         },
         {
             "name": "coins",
-            "description": "General blockchain data used by defillama and open-sourced"
+            "description": "General blockchain data used by AtomoDefi and open-sourced"
         }
     ],
     "paths": {
@@ -26,7 +26,7 @@
                 "tags": [
                     "TVL"
                 ],
-                "summary": "List all protocols on defillama along with their tvl",
+                "summary": "List all protocols on AtomoDefi along with their tvl",
                 "responses": {
                     "200": {
                         "description": "successful operation"
@@ -190,7 +190,7 @@
                 },
                 "servers": [
                     {
-                        "url": "https://coins.llama.fi"
+                        "url": "https://coins.Atomo.fi"
                     }
                 ]
             }
@@ -230,7 +230,7 @@
                 },
                 "servers": [
                     {
-                        "url": "https://coins.llama.fi"
+                        "url": "https://coins.Atomo.fi"
                     }
                 ]
             }

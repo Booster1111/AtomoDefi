@@ -175,7 +175,7 @@ const NFTDashboard = ({ statistics, collections, chart, chainData, marketplaceDa
   return (
     <PageWrapper>
       <SEO cardName={displayName} chain={displayName} tvl={tvl} nftPage />
-      <ThemedBackground backgroundColor={transparentize(0.8, '#445ed0')} />
+      <ThemedBackground backgroundColor={transparentize(0.8, '#34a6b6')} />
       <ContentWrapper>
         <AutoColumn gap="24px" style={{ paddingBottom: '24px' }}>
           <Search />

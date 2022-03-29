@@ -54,7 +54,7 @@ export default function Protocols({ langs, langsUnique, daySum }) {
   const colors = {}
   langsUnique.forEach(l=>{colors[l]=getRandomColor()})
   return (
-    <GeneralLayout title={`Languages - DefiLlama`} defaultSEO>
+    <GeneralLayout title={`Languages - DefiAtomo`} defaultSEO>
       <PageWrapper>
       <FullWrapper>
         <Search />

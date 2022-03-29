@@ -44,7 +44,7 @@ const columns = columnsToShow('protocolName', 'chains', '1dChange', '7dChange', 
 export default function Protocols({ protocols }) {
   const data = useCalcStakePool2Tvl(protocols)
   return (
-    <GeneralLayout title={`Airdroppable protocols - Defi Llama`} defaultSEO>
+    <GeneralLayout title={`Airdroppable protocols - Defi Atomotos`} defaultSEO>
       <PageWrapper>
         <FullWrapper>
           <PageHeader title="Tokenless protocols that may airdrop 🧑‍🌾" />

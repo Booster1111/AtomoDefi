@@ -33,7 +33,7 @@ export default function TopGainersLosers({ protocols }) {
   }, [data])
 
   return (
-    <GeneralLayout title={`Top Gainers and Losers - DefiLlama`} defaultSEO>
+    <GeneralLayout title={`Top Gainers and Losers - DefiAtomo`} defaultSEO>
       <PageWrapper>
         <FullWrapper>
           {/* <PageHeader title="Top Gainers and Losers" /> */}

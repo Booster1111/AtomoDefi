@@ -22,7 +22,7 @@ export const Wrapper = styled.div`
   z-index: 10000;
   box-sizing: border-box;
   /* background-color: #1b1c22; */
-  background: linear-gradient(168deg, #344179 3.98%, #445ed0 100%);
+  background: linear-gradient(168deg, #34a6b6 3.98%, #003d3b 100%);
   color: ${({ theme }) => theme.bg2};
   min-width: 220px;
   overflow-y: scroll;
@@ -131,12 +131,12 @@ export const Footer = ({ isDark, toggleDarkMode }) => (
   <>
     <AutoColumn gap="0.5rem" style={{ paddingBottom: '1rem' }}>
       <HeaderText>
-        <Link href="https://twitter.com/DefiLlama" target="_blank">
+        <Link href="https://twitter.com/Atomotos" target="_blank">
           Twitter
         </Link>
       </HeaderText>
       <HeaderText>
-        <Link href="https://discord.gg/buPFYXzDDd" target="_blank">
+        <Link href="https://discord.gg/QtdYJWTM" target="_blank">
           Discord
         </Link>
       </HeaderText>
@@ -147,12 +147,12 @@ export const Footer = ({ isDark, toggleDarkMode }) => (
         <Link href="/docs/api">API Docs</Link>
       </HeaderText>
       <HeaderText>
-        <Link href="https://docs.llama.fi/list-your-project/submit-a-project" target="_blank">
+        <Link href="https://docs.Atomo.fi/list-your-project/submit-a-project" target="_blank">
           List Your Project
         </Link>
       </HeaderText>
       <HeaderText>
-        <Link href="https://defillama-datasets.s3.eu-central-1.amazonaws.com/all.csv" target="_blank">
+        <Link href="https://defiAtomo-datasets.s3.eu-central-1.amazonaws.com/all.csv" target="_blank">
           Download Data
         </Link>
       </HeaderText>

@@ -14,7 +14,7 @@ export async function getStaticProps() {
 
 export default function Portfolio({ protocolsDict }) {
   return (
-    <GeneralLayout title={`Saved TVL Rankings - DefiLlama`} defaultSEO>
+    <GeneralLayout title={`Saved TVL Rankings - AtomoDefi`} defaultSEO>
       <PortfolioContainer protocolsDict={protocolsDict} />
     </GeneralLayout>
   )

@@ -246,7 +246,7 @@ function ProtocolContainer({ protocolData, protocol, denomination, selectedChain
                   </RowBetween>
                   <RowBetween align="flex-end">
                     <AutoColumn style={{ width: '100%' }}>
-                      <Link color={backgroundColor} external href={`https://api.llama.fi/dataset/${protocol}.csv`}>
+                      <Link color={backgroundColor} external href={`https://api.Atomo.fi/dataset/${protocol}.csv`}>
                         <ButtonLight useTextColor={true} color={backgroundColor} style={{ marginRight: '1rem' }}>
                           Download dataset ↗
                         </ButtonLight>
@@ -348,7 +348,7 @@ function ProtocolContainer({ protocolData, protocol, denomination, selectedChain
                 <Link
                   color={backgroundColor}
                   external
-                  href={`https://github.com/DefiLlama/DefiLlama-Adapters/tree/main/projects/${codeModule}`}
+                  href={`https://github.com/CryptoBrainStorm0417/AtomoDefi/tree/main/projects/${codeModule}`}
                 >
                   <ButtonLight useTextColor={true} color={backgroundColor}>
                     Check the code ↗

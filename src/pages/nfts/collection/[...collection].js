@@ -22,7 +22,7 @@ export async function getStaticProps({
       collection,
       chart,
       statistics,
-      title: collection ? `${collection.name} - DefiLlama` : `DefiLlama - NFT Dashboard`
+      title: collection ? `${collection.name} - DefiAtomo` : `DefiAtomo - NFT Dashboard`
     },
     revalidate: revalidate()
   }

@@ -71,7 +71,7 @@ const PanelWrapper = styled(Box)`
 
 function PressPage() {
   return (
-    <GeneralLayout title="DefiLlama - DeFi Dashboard" defaultSEO>
+    <GeneralLayout title="AtomoDefi - DeFi Dashboard" defaultSEO>
       <PageWrapper>
         <FullWrapper>
           <RowBetween>
@@ -82,7 +82,7 @@ function PressPage() {
               <TYPE.heading>Mission</TYPE.heading>
               <Divider />
               <TYPE.main>
-                DefiLlama is the largest TVL aggregator for DeFi (Decentralized Finance). Our data is fully open-source
+              AtomoDefi is the largest TVL aggregator for DeFi (Decentralized Finance). Our data is fully open-source
                 and maintained by a team of passionate individuals and contributors from hundreds of protocols.
               </TYPE.main>
               <TYPE.main>Our focus is on accurate data and transparent methodology.</TYPE.main>
@@ -95,11 +95,11 @@ function PressPage() {
               <Divider />
               <TYPE.main>
                 If you are working on a story using our data or need to get in touch, contact:{' '}
-                <Link href="mailto:defillama@protonmail.com">llamapress@protonmail.com</Link>
+                <Link href="mailto:AtomoDefi@protonmail.com">Atomopress@protonmail.com</Link>
               </TYPE.main>
               <Divider />
               <TYPE.main>
-                DeFiLlama is used across a large number of media organisations and financial institutions.
+              AtomoDefi is used across a large number of media organisations and financial institutions.
               </TYPE.main>
               <PanelWrapper mt={[0, 0, '1rem']} style={{ gridTemplateRows: 'auto' }}>
                 {pressList.map((imageFilename) => (
@@ -113,7 +113,7 @@ function PressPage() {
               <TYPE.heading>Branding Assets</TYPE.heading>
               <Divider />
               <TYPE.main>
-                You can download all our branding assets from <Link href="/defillama-press-kit.zip">here</Link>.
+                You can download all our branding assets from <Link href="/AtomoDefi-press-kit.zip">here</Link>.
               </TYPE.main>
             </DashGrid>
           </Panel>

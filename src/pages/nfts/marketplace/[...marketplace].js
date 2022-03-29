@@ -43,7 +43,7 @@ export async function getStaticPaths() {
 
 export default function Marketplace({ displayName, ...props }) {
   return (
-    <GeneralLayout title={`${displayName} Total Volume - DefiLlama`}>
+    <GeneralLayout title={`${displayName} Total Volume - DefiAtomo`}>
       <NFTDashboardPage displayName={displayName} {...props} />
     </GeneralLayout>
   )

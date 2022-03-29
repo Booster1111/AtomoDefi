@@ -14,7 +14,7 @@ export async function getStaticProps() {
 export default function HomePage(props) {
   return (
     <SearchDataProvider protocolsAndChains={{ protocolNames: props.filteredProtocols, chainsSet: props.chainsSet }}>
-      <GeneralLayout title="DefiLlama - DeFi Dashboard">
+      <GeneralLayout title="AtomoDefi - DeFi Dashboard">
         <ChainPage {...props} />
       </GeneralLayout>
     </SearchDataProvider>

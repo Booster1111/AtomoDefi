@@ -28,14 +28,14 @@ export const FEE_WARNING_TOKENS = ['0xd46ba6d942050d489dbd938a2c909a5d5039a161']
 
 // API endpoints
 
-export const CHART_API = 'https://api.llama.fi/lite/charts'
-export const PROTOCOLS_API = 'https://api.llama.fi/lite/protocols2'
-export const PROTOCOL_API = 'https://api.llama.fi/updatedProtocol'
-export const CONFIG_API = 'https://api.llama.fi/config'
-export const HOURLY_PROTOCOL_API = 'https://api.llama.fi/hourly'
-export const LANGS_API = 'https://api.llama.fi/langs'
-export const ORACLE_API = 'https://api.llama.fi/oracles'
-export const FORK_API = 'https://api.llama.fi/forks'
+export const CHART_API = 'https://api.Atomo.fi/lite/charts'
+export const PROTOCOLS_API = 'https://api.Atomo.fi/lite/protocols2'
+export const PROTOCOL_API = 'https://api.Atomo.fi/updatedProtocol'
+export const CONFIG_API = 'https://api.Atomo.fi/config'
+export const HOURLY_PROTOCOL_API = 'https://api.Atomo.fi/hourly'
+export const LANGS_API = 'https://api.Atomo.fi/langs'
+export const ORACLE_API = 'https://api.Atomo.fi/oracles'
+export const FORK_API = 'https://api.Atomo.fi/forks'
 
 export const NFT_COLLECTION_API = 'https://ybrjmu6r60.execute-api.eu-west-2.amazonaws.com/prod/collection'
 export const NFT_COLLECTIONS_API = 'https://ybrjmu6r60.execute-api.eu-west-2.amazonaws.com/prod/collections'

@@ -1,9 +1,9 @@
 {
-  "name": "defillama",
+  "name": "AtomoDefi",
   "sideEffects": false,
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://defillama.com/",
+  "homepage": "https://defiAtomotos.com/",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "dev": "next dev",

@@ -12,7 +12,7 @@ import { useDarkModeManager } from 'contexts/LocalStorage'
 
 const NavMenu = ({ isMobile }) => {
   const isNFTApp = useNFTApp()
-
+  console.log("isNFTApp" + isNFTApp);
   return (
     <>
       {!isMobile && <AppSwitch />}
@@ -26,11 +26,13 @@ export default function SideNav() {
   const [isDark, toggleDarkMode] = useDarkModeManager()
   const isNFTApp = useNFTApp()
 
+  console.log("isNFTApp" + isNFTApp);
+
   return (
     <Wrapper>
       <MobileWrapper>
         <div>
-          <Title homePath={isNFTApp ? '/nfts' : '/'} />
+          {/* <Title homePath={isNFTApp ? '/nfts' : '/'} /> */}
           <Desktop>
             <AutoColumn gap="1rem" style={{ paddingBottom: '1rem', marginBottom: 'auto' }}>
               <NavMenu isMobile={false} />

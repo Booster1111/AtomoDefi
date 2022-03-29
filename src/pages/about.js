@@ -23,7 +23,7 @@ function AboutPage() {
   `
 
   return (
-    <GeneralLayout title="DefiLlama - DeFi Dashboard" defaultSEO>
+    <GeneralLayout title="AtomoDefi - DeFi Dashboard" defaultSEO>
       <PageWrapper>
         <FullWrapper>
           <RowBetween>
@@ -35,7 +35,7 @@ function AboutPage() {
               <Divider />
 
               <TYPE.main>
-                DefiLlama is the largest TVL aggregator for DeFi (Decentralized Finance). Our data is fully open-source
+              AtomoDefi is the largest TVL aggregator for DeFi (Decentralized Finance). Our data is fully open-source
                 and maintained by a team of passionate individuals and contributors from hundreds of protocols.
               </TYPE.main>
               <TYPE.main>Our focus is on accurate data and transparent methodology.</TYPE.main>
@@ -43,7 +43,7 @@ function AboutPage() {
               <Divider />
               <Divider />
               <TYPE.main>
-                Contact us on <Link href="https://twitter.com/defillama">Twitter</Link> or{' '}
+                Contact us on <Link href="https://twitter.com/AtomoDefi">Twitter</Link> or{' '}
                 <Link href="https://discord.gg/buPFYXzDDd">Discord</Link>
               </TYPE.main>
             </DashGrid>
@@ -57,7 +57,7 @@ function AboutPage() {
               </TYPE.main>
               <Divider />
               <TYPE.main>
-                DeFiLlama&apos;s design is based on{' '}
+              AtomoDefi&apos;s design is based on{' '}
                 <Link href="https://github.com/Uniswap/uniswap-info">Uniswap.info</Link>
               </TYPE.main>
             </DashGrid>
